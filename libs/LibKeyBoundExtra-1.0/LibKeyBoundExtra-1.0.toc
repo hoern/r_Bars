@@ -1,0 +1,23 @@
+﻿## Interface: 30000
+## LoadOnDemand: 1
+## Title: Lib: LibKeyBoundExtra-1.0
+## Notes: Applies LibKeyBound to Spell Book and Macro UI Buttons.
+## Notes-deDE: LibKeyBoundExtra ist eine Bibliothek, die bei der keybindings Spell Book und Macro UI helfen.
+## Notes-frFR: Une biblioth簵e d'aide �a keybindings Spell Book and Macro UI.
+## Notes-esES: Una biblioteca para ayudar con las keybindings Spell Book and Macro UI.
+## Notes-esMX: Una biblioteca para ayudar con las keybindings Spell Book and Macro UI.
+## Author: Toadkiller, Tuller
+## X-Category: Library
+## X-Credits: KeyBound/macro.lua and KeyBound/spell.lua by Tuller -> LibKeyBoundExtra library by Toadkiller.
+## X-Website: http://www.wowace.com/wiki/LibKeyBoundExtra-1.0
+## X-AceForum: 9752
+## X-Category: Library
+## X-License: Intention is to release into public domain once permission from above authors is received.  Meanwhile their licensing provisions prevail.
+## OptionalDeps: LibKeyBound-1.0
+## X-Curse-Packaged-Version: r34
+## X-Curse-Project-Name: LibKeyBoundExtra-1.0
+## X-Curse-Project-ID: libkeyboundextra-1-0
+## X-Curse-Repository-ID: wow/libkeyboundextra-1-0/mainline
+
+LibStub\LibStub.lua
+LibKeyBoundExtra-1.0\lib.xml

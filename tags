@@ -1,0 +1,150 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	Development	//
+) PlaySound	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^		f:SetScript('OnHide', function() PlaySound('gsTitleOptionExit') end)$/;"	f
+) PlaySound	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^		f:SetScript('OnShow', function() PlaySound('igMainMenuOption') end)$/;"	f
+) PlaySound	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^		f:SetScript('OnHide', function() PlaySound('gsTitleOptionExit') end)$/;"	f
+) PlaySound	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^		f:SetScript('OnShow', function() PlaySound('igMainMenuOption') end)$/;"	f
+CallbackHandler:New	.\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^function CallbackHandler:New(target, RegisterName, UnregisterName, UnregisterAllName, OnUsed, OnUnused)$/;"	f
+CallbackHandler:New	.\libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^function CallbackHandler:New(target, RegisterName, UnregisterName, UnregisterAllName, OnUsed, OnUnused)$/;"	f
+CallbackHandler:New	.\libs\LibKeyBound-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^function CallbackHandler:New(target, RegisterName, UnregisterName, UnregisterAllName, OnUsed, OnUnused)$/;"	f
+CreateDispatcher	.\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^local function CreateDispatcher(argCount)$/;"	f
+CreateDispatcher	.\libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^local function CreateDispatcher(argCount)$/;"	f
+CreateDispatcher	.\libs\LibKeyBound-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^local function CreateDispatcher(argCount)$/;"	f
+LibKeyBound.Binder:ClearBindings	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:ClearBindings(button)$/;"	f
+LibKeyBound.Binder:ClearBindings	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:ClearBindings(button)$/;"	f
+LibKeyBound.Binder:Create	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:Create()$/;"	f
+LibKeyBound.Binder:Create	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:Create()$/;"	f
+LibKeyBound.Binder:FreeKey	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:FreeKey(button, key)$/;"	f
+LibKeyBound.Binder:FreeKey	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:FreeKey(button, key)$/;"	f
+LibKeyBound.Binder:GetBindings	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:GetBindings(button)$/;"	f
+LibKeyBound.Binder:GetBindings	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:GetBindings(button)$/;"	f
+LibKeyBound.Binder:OnEnter	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:OnEnter()$/;"	f
+LibKeyBound.Binder:OnEnter	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:OnEnter()$/;"	f
+LibKeyBound.Binder:OnHide	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:OnHide()$/;"	f
+LibKeyBound.Binder:OnHide	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:OnHide()$/;"	f
+LibKeyBound.Binder:OnKeyDown	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:OnKeyDown(key)$/;"	f
+LibKeyBound.Binder:OnKeyDown	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:OnKeyDown(key)$/;"	f
+LibKeyBound.Binder:OnLeave	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:OnLeave()$/;"	f
+LibKeyBound.Binder:OnLeave	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:OnLeave()$/;"	f
+LibKeyBound.Binder:OnMouseWheel	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:OnMouseWheel(arg1)$/;"	f
+LibKeyBound.Binder:OnMouseWheel	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:OnMouseWheel(arg1)$/;"	f
+LibKeyBound.Binder:SetKey	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:SetKey(button, key)$/;"	f
+LibKeyBound.Binder:SetKey	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:SetKey(button, key)$/;"	f
+LibKeyBound.Binder:ToBinding	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:ToBinding(button)$/;"	f
+LibKeyBound.Binder:ToBinding	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound.Binder:ToBinding(button)$/;"	f
+LibKeyBound:Activate	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:Activate()$/;"	f
+LibKeyBound:Activate	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:Activate()$/;"	f
+LibKeyBound:Deactivate	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:Deactivate()$/;"	f
+LibKeyBound:Deactivate	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:Deactivate()$/;"	f
+LibKeyBound:GetColorKeyBoundMode	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:GetColorKeyBoundMode()$/;"	f
+LibKeyBound:GetColorKeyBoundMode	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:GetColorKeyBoundMode()$/;"	f
+LibKeyBound:Initialize	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:Initialize()$/;"	f
+LibKeyBound:Initialize	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:Initialize()$/;"	f
+LibKeyBound:IsShown	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:IsShown()$/;"	f
+LibKeyBound:IsShown	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:IsShown()$/;"	f
+LibKeyBound:PLAYER_REGEN_DISABLED	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:PLAYER_REGEN_DISABLED()$/;"	f
+LibKeyBound:PLAYER_REGEN_DISABLED	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:PLAYER_REGEN_DISABLED()$/;"	f
+LibKeyBound:PLAYER_REGEN_ENABLED	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:PLAYER_REGEN_ENABLED()$/;"	f
+LibKeyBound:PLAYER_REGEN_ENABLED	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:PLAYER_REGEN_ENABLED()$/;"	f
+LibKeyBound:Set	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:Set(button)$/;"	f
+LibKeyBound:Set	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:Set(button)$/;"	f
+LibKeyBound:SetColorKeyBoundMode	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:SetColorKeyBoundMode(r, g, b, a)$/;"	f
+LibKeyBound:SetColorKeyBoundMode	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:SetColorKeyBoundMode(r, g, b, a)$/;"	f
+LibKeyBound:ToShortKey	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:ToShortKey(key)$/;"	f
+LibKeyBound:ToShortKey	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:ToShortKey(key)$/;"	f
+LibKeyBound:Toggle	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:Toggle()$/;"	f
+LibKeyBound:Toggle	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^function LibKeyBound:Toggle()$/;"	f
+LibKeyBoundExtra.CastButton:ClearBindings	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.CastButton:ClearBindings()$/;"	f
+LibKeyBoundExtra.CastButton:ClearBindings	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.CastButton:ClearBindings()$/;"	f
+LibKeyBoundExtra.CastButton:GetActionName	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.CastButton:GetActionName()$/;"	f
+LibKeyBoundExtra.CastButton:GetActionName	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.CastButton:GetActionName()$/;"	f
+LibKeyBoundExtra.CastButton:GetBindAction	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.CastButton:GetBindAction()$/;"	f
+LibKeyBoundExtra.CastButton:GetBindAction	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.CastButton:GetBindAction()$/;"	f
+LibKeyBoundExtra.CastButton:GetBindings	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.CastButton:GetBindings()$/;"	f
+LibKeyBoundExtra.CastButton:GetBindings	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.CastButton:GetBindings()$/;"	f
+LibKeyBoundExtra.CastButton:GetHotkey	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.CastButton:GetHotkey()$/;"	f
+LibKeyBoundExtra.CastButton:GetHotkey	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.CastButton:GetHotkey()$/;"	f
+LibKeyBoundExtra.CastButton:Load	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.CastButton:Load()$/;"	f
+LibKeyBoundExtra.CastButton:Load	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.CastButton:Load()$/;"	f
+LibKeyBoundExtra.CastButton:OnEnter	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.CastButton:OnEnter()$/;"	f
+LibKeyBoundExtra.CastButton:OnEnter	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.CastButton:OnEnter()$/;"	f
+LibKeyBoundExtra.CastButton:SetKey	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.CastButton:SetKey(key)$/;"	f
+LibKeyBoundExtra.CastButton:SetKey	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.CastButton:SetKey(key)$/;"	f
+LibKeyBoundExtra.MacroButton:ClearBindings	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.MacroButton:ClearBindings()$/;"	f
+LibKeyBoundExtra.MacroButton:ClearBindings	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.MacroButton:ClearBindings()$/;"	f
+LibKeyBoundExtra.MacroButton:GetActionName	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.MacroButton:GetActionName()$/;"	f
+LibKeyBoundExtra.MacroButton:GetActionName	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.MacroButton:GetActionName()$/;"	f
+LibKeyBoundExtra.MacroButton:GetBindAction	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.MacroButton:GetBindAction()$/;"	f
+LibKeyBoundExtra.MacroButton:GetBindAction	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.MacroButton:GetBindAction()$/;"	f
+LibKeyBoundExtra.MacroButton:GetBindings	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.MacroButton:GetBindings()$/;"	f
+LibKeyBoundExtra.MacroButton:GetBindings	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.MacroButton:GetBindings()$/;"	f
+LibKeyBoundExtra.MacroButton:GetHotkey	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.MacroButton:GetHotkey()$/;"	f
+LibKeyBoundExtra.MacroButton:GetHotkey	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.MacroButton:GetHotkey()$/;"	f
+LibKeyBoundExtra.MacroButton:Load	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.MacroButton:Load()$/;"	f
+LibKeyBoundExtra.MacroButton:Load	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.MacroButton:Load()$/;"	f
+LibKeyBoundExtra.MacroButton:OnEnter	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.MacroButton:OnEnter()$/;"	f
+LibKeyBoundExtra.MacroButton:OnEnter	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.MacroButton:OnEnter()$/;"	f
+LibKeyBoundExtra.MacroButton:SetKey	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.MacroButton:SetKey(key)$/;"	f
+LibKeyBoundExtra.MacroButton:SetKey	.\libs\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0\LibKeyBoundExtra-1.0.lua	/^function LibKeyBoundExtra.MacroButton:SetKey(key)$/;"	f
+LibStub:GetLibrary	.\libs\CallbackHandler-1.0\LibStub\LibStub.lua	/^	function LibStub:GetLibrary(major, silent)$/;"	f
+LibStub:GetLibrary	.\libs\LibKeyBound-1.0\LibStub\LibStub.lua	/^	function LibStub:GetLibrary(major, silent)$/;"	f
+LibStub:GetLibrary	.\libs\LibKeyBoundExtra-1.0\LibStub\LibStub.lua	/^	function LibStub:GetLibrary(major, silent)$/;"	f
+LibStub:GetLibrary	.\libs\LibStub\LibStub.lua	/^	function LibStub:GetLibrary(major, silent)$/;"	f
+LibStub:IterateLibraries	.\libs\CallbackHandler-1.0\LibStub\LibStub.lua	/^	function LibStub:IterateLibraries() return pairs(self.libs) end$/;"	f
+LibStub:IterateLibraries	.\libs\LibKeyBound-1.0\LibStub\LibStub.lua	/^	function LibStub:IterateLibraries() return pairs(self.libs) end$/;"	f
+LibStub:IterateLibraries	.\libs\LibKeyBoundExtra-1.0\LibStub\LibStub.lua	/^	function LibStub:IterateLibraries() return pairs(self.libs) end$/;"	f
+LibStub:IterateLibraries	.\libs\LibStub\LibStub.lua	/^	function LibStub:IterateLibraries() return pairs(self.libs) end$/;"	f
+LibStub:NewLibrary	.\libs\CallbackHandler-1.0\LibStub\LibStub.lua	/^	function LibStub:NewLibrary(major, minor)$/;"	f
+LibStub:NewLibrary	.\libs\LibKeyBound-1.0\LibStub\LibStub.lua	/^	function LibStub:NewLibrary(major, minor)$/;"	f
+LibStub:NewLibrary	.\libs\LibKeyBoundExtra-1.0\LibStub\LibStub.lua	/^	function LibStub:NewLibrary(major, minor)$/;"	f
+LibStub:NewLibrary	.\libs\LibStub\LibStub.lua	/^	function LibStub:NewLibrary(major, minor)$/;"	f
+SlashCmdList['LibKeyBoundSlashCOMMAND'] 	.\libs\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^	SlashCmdList['LibKeyBoundSlashCOMMAND'] = function() self:Toggle() end$/;"	f
+SlashCmdList['LibKeyBoundSlashCOMMAND'] 	.\libs\LibKeyBound-1.0\LibKeyBound-1.0\LibKeyBound-1.0.lua	/^	SlashCmdList['LibKeyBoundSlashCOMMAND'] = function() self:Toggle() end$/;"	f
+call	.\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	local function call() method(ARGS) end$/;"	f
+call	.\libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	local function call() method(ARGS) end$/;"	f
+call	.\libs\LibKeyBound-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	local function call() method(ARGS) end$/;"	f
+dispatch	.\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	local function dispatch(handlers, ...)$/;"	f
+dispatch	.\libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	local function dispatch(handlers, ...)$/;"	f
+dispatch	.\libs\LibKeyBound-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	local function dispatch(handlers, ...)$/;"	f
+elseif type(self[method]) ~	.\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^			elseif type(self[method]) ~= "function" then$/;"	f
+elseif type(self[method]) ~	.\libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^			elseif type(self[method]) ~= "function" then$/;"	f
+elseif type(self[method]) ~	.\libs\LibKeyBound-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^			elseif type(self[method]) ~= "function" then$/;"	f
+errorhandler	.\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^local function errorhandler(err)$/;"	f
+errorhandler	.\libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^local function errorhandler(err)$/;"	f
+errorhandler	.\libs\LibKeyBound-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^local function errorhandler(err)$/;"	f
+if type(method) ~	.\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^		if type(method) ~= "string" and type(method) ~= "function" then$/;"	f
+if type(method) ~	.\libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^		if type(method) ~= "string" and type(method) ~= "function" then$/;"	f
+if type(method) ~	.\libs\LibKeyBound-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^		if type(method) ~= "string" and type(method) ~= "function" then$/;"	f
+local Dispatchers 	.\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^local Dispatchers = setmetatable({}, {__index=function(self, argCount)$/;"	f
+local Dispatchers 	.\libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^local Dispatchers = setmetatable({}, {__index=function(self, argCount)$/;"	f
+local Dispatchers 	.\libs\LibKeyBound-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^local Dispatchers = setmetatable({}, {__index=function(self, argCount)$/;"	f
+local meta 	.\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^local meta = {__index = function(tbl, key) tbl[key] = {} return tbl[key] end}$/;"	f
+local meta 	.\libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^local meta = {__index = function(tbl, key) tbl[key] = {} return tbl[key] end}$/;"	f
+local meta 	.\libs\LibKeyBound-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^local meta = {__index = function(tbl, key) tbl[key] = {} return tbl[key] end}$/;"	f
+rFrame	.\core.lua	/^function rFrame(name, pos)$/;"	f
+rRepos	.\core.lua	/^function rRepos(type, anchor, parent, wrap, scale, numbs)$/;"	f
+regfunc 	.\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^				regfunc = function(...) method(arg,...) end$/;"	f
+regfunc 	.\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^				regfunc = function(...) self[method](self,...) end$/;"	f
+regfunc 	.\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^				regfunc = function(...) self[method](self,arg,...) end$/;"	f
+regfunc 	.\libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^				regfunc = function(...) method(arg,...) end$/;"	f
+regfunc 	.\libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^				regfunc = function(...) self[method](self,...) end$/;"	f
+regfunc 	.\libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^				regfunc = function(...) self[method](self,arg,...) end$/;"	f
+regfunc 	.\libs\LibKeyBound-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^				regfunc = function(...) method(arg,...) end$/;"	f
+regfunc 	.\libs\LibKeyBound-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^				regfunc = function(...) self[method](self,...) end$/;"	f
+regfunc 	.\libs\LibKeyBound-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^				regfunc = function(...) self[method](self,arg,...) end$/;"	f
+registry:Fire	.\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	function registry:Fire(eventname, ...)$/;"	f
+registry:Fire	.\libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	function registry:Fire(eventname, ...)$/;"	f
+registry:Fire	.\libs\LibKeyBound-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	function registry:Fire(eventname, ...)$/;"	f
+target[RegisterName] 	.\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	target[RegisterName] = function(self, eventname, method, ... --[[actually just a single arg]])$/;"	f
+target[RegisterName] 	.\libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	target[RegisterName] = function(self, eventname, method, ... --[[actually just a single arg]])$/;"	f
+target[RegisterName] 	.\libs\LibKeyBound-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	target[RegisterName] = function(self, eventname, method, ... --[[actually just a single arg]])$/;"	f
+target[UnregisterAllName] 	.\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^		target[UnregisterAllName] = function(...)$/;"	f
+target[UnregisterAllName] 	.\libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^		target[UnregisterAllName] = function(...)$/;"	f
+target[UnregisterAllName] 	.\libs\LibKeyBound-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^		target[UnregisterAllName] = function(...)$/;"	f
+target[UnregisterName] 	.\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	target[UnregisterName] = function(self, eventname)$/;"	f
+target[UnregisterName] 	.\libs\CallbackHandler-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	target[UnregisterName] = function(self, eventname)$/;"	f
+target[UnregisterName] 	.\libs\LibKeyBound-1.0\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	target[UnregisterName] = function(self, eventname)$/;"	f

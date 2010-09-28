@@ -1,0 +1,13 @@
+------------------------------------------------------------------------
+r34 | rabbit | 2010-09-05 11:30:31 +0000 (Sun, 05 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/LibKeyBoundExtra-1.0/LibKeyBoundExtra-1.0.lua
+
+Cataclysm compat, not fully tested.
+------------------------------------------------------------------------
+r33 | nevcairiel | 2009-03-06 10:12:27 +0000 (Fri, 06 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibKeyBoundExtra-1.0.toc
+
+Restore LoD to Libraries, as 3.0.8 fixed all bugs that blocked LoD OptionalDeps to load properly.
+------------------------------------------------------------------------

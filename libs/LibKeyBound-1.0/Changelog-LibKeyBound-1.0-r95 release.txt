@@ -1,0 +1,13 @@
+------------------------------------------------------------------------
+r96 | azethoth | 2010-03-23 19:19:51 +0000 (Tue, 23 Mar 2010) | 1 line
+Changed paths:
+   A /tags/r95 release (from /trunk:95)
+
+Tagging as r95 release
+------------------------------------------------------------------------
+r95 | AZETHOTH | 2010-03-23 19:18:02 +0000 (Tue, 23 Mar 2010) | 1 line
+Changed paths:
+   M /trunk/LibKeyBound-1.0/LibKeyBound-1.0.lua
+
+MouseIsOver(region) --> region:IsMouseOver()
+------------------------------------------------------------------------
