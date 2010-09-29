@@ -1,5 +1,7 @@
 local rClass = select(2, UnitClass("player"))
 
+PlayerFrame_AnimateOut = function(self) return end
+
 rBar = CreateFrame("Frame")
 local scale = 0.8
 local bsize,_ = _G["ActionButton1"]:GetSize()
@@ -79,11 +81,13 @@ rBar.mblBar =   rFrame("rmBl",   {anchor = "TOPRIGHT",    anchorTo = "BOTTOM",  
 rBar.mbrBar =   rFrame("rmBr",   {anchor = "BOTTOMRIGHT", anchorTo = "BOTTOMLEFT", x = 0,       	y = 0   })
 rBar.shapeBar = rFrame("rShape", {anchor = "CENTER",      anchorTo = "BOTTOM",     x = -(blen/2), y = 0   })
 rBar.totemBar = rFrame("tBar",   {anchor = "CENTER",      anchorTo = "BOTTOM",     x = -(blen/2), y = 0   })
-rBar.petBar =   rFrame("pBar",   {anchor = "CENTER",      anchorTo = "BOTTOMRIGHT",     x = -len-10, y = 5   })
+rBar.petBar =   rFrame("pBar",   {anchor = "CENTER",      anchorTo = "BOTTOMRIGHT",x = -len-10, y = 5   })
+rBar.vBar =     rFrame("vBar",   {anchor = "TOPRIGHT",    anchorTo = "BOTTOM",     x = -(len+80), y = 170 })
 
 function rRepos(type, anchor, parent, wrap, scale, numbs)
 	for i=1, numbs do
 		local button = _G[type.."Button"..i]
+		if not button then return end
 		button:SetScale(scale)
 		if type == "Action" then
 			button:SetParent(parent)
@@ -107,7 +111,8 @@ rRepos("MultiBarBottomRight", rBar.brBar,     rBar.brBar,     true,  scale, NUM_
 rRepos("MultiBarRight",       rBar.mbrBar,    rBar.mbrBar,    false, scale, NUM_ACTIONBAR_BUTTONS)
 rRepos("MultiBarLeft",        rBar.mblBar,    rBar.mblBar,    true,  scale, NUM_ACTIONBAR_BUTTONS)
 rRepos("Shapeshift",          rBar.shapeBar,  rBar.shapeBar,  true,  scale, NUM_SHAPESHIFT_SLOTS)
-rRepos("PetAction",           rBar.petBar,    rBar.petBar,    false,  scale, NUM_PET_ACTION_SLOTS)
+rRepos("PetAction",           rBar.petBar,    rBar.petBar,    false, scale, NUM_PET_ACTION_SLOTS)
+rRepos("VehicleMenuBarAction", rBar.vBar,     rBar.vBar,      true,  scale, NUM_ACTIONBAR_BUTTONS)
 
 -- MainMenuBar:SetParent(MainMenuBar)
 BonusActionBarFrame:SetParent(MainMenuBar)
@@ -117,6 +122,10 @@ MultiBarRight:SetParent(rBar.mbrBar)
 MultiBarRight:SetParent(rBar.mblBar)
 ShapeshiftBarFrame:SetParent(rBar.shapeBar)
 PetActionBarFrame:SetParent(rBar.petBar)
+
+local vms,_ = _G["VehicleMenuBarActionButton1"]:GetSize()
+VehicleMenuBar:ClearAllPoints()
+VehicleMenuBar:SetPoint("RIGHT", Minimap, "LEFT", 0, 0)
 
 if rClass == "SHAMAN" then
 	-- override totem bar location
@@ -157,3 +166,32 @@ end
 
 BonusActionBarFrame:HookScript("OnShow", function(self) rxFrame("ActionButton",12,0) end)
 BonusActionBarFrame:HookScript("OnHide", function(self) rxFrame("ActionButton",12,1) end)
+
+-- Vehicle Code
+
+rVehicle = CreateFrame("BUTTON", nil, UIParent, "SecureActionButtonTemplate")
+rVehicle:SetSize(35,35)
+rVehicle:SetPoint("TOPRIGHT", rBar.mainBar, "TOPLEFT", 0, 0)
+rVehicle:RegisterForClicks("AnyUp")
+rVehicle:SetScript("OnClick", function() VehicleExit() end)
+rVehicle:SetNormalTexture("Interface\\Vehicles\\UI-Vehicles-Button-Exit-Up")
+rVehicle:SetPushedTexture("Interface\\Vehicles\\UI-Vehicles-Button-Exit-Down")
+rVehicle:SetHighlightTexture("Interface\\Vehicles\\UI-Vehicles-Button-Exit-Down")
+rVehicle:SetAlpha(0)
+rVehicle:Hide()
+rVehicle:RegisterEvent("UNIT_ENTERING_VEHICLE")
+rVehicle:RegisterEvent("UNIT_ENTERED_VEHICLE")
+rVehicle:RegisterEvent("UNIT_EXITING_VEHICLE")
+rVehicle:RegisterEvent("UNIT_EXITED_VEHICLE")
+rVehicle:RegisterEvent("ZONE_CHANGED_NEW_AREA")
+rVehicle:SetScript("OnEvent", function(self, event, ...)
+	local arg1 = ...;
+	if(((event=="UNIT_ENTERING_VEHICLE") or (event=="UNIT_ENTERED_VEHICLE")) and arg1 == "player") then
+			rVehicle:Show()
+			rVehicle:SetAlpha(1)
+			VehicleMenuBar:SetScale(0.7)
+	elseif (((event=="UNIT_EXITING_VEHICLE") or (event=="UNIT_EXITED_VEHICLE")) and arg1 == "player") or (event=="ZONE_CHANGED_NEW_AREA" and not UnitHasVehicleUI("player")) then
+			rVehicle:Hide()
+			rVehicle:SetAlpha(0)
+	end
+end)
